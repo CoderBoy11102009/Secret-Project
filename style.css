@@ -1,0 +1,52 @@
+h1{
+    color: white;
+}
+
+.header{
+    background-color:cadetblue;
+    display: flex;
+    justify-content:space-between;
+    border:solid;
+    margin:50px;
+    padding:100px;
+    padding-left:5px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #ba740c;
+}
+
+a:link{
+    color: skyblue;
+}
+
+a:visited{
+    color: azure;
+}
+
+.item:hover img{
+    opacity: 0.2;
+}
+
+.item:hover p{
+    opacity: 0.2;
+}
+
+h1 {
+    color:#430404
+}
